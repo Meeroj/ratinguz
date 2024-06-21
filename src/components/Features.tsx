@@ -18,35 +18,33 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "Xizmatlarni taqqoslash",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Siz istalgan xizmat yoki mahsulotlarni taqqoslab ko'rishingiz mumkin hamda bu sizga qulaylik beradi.",
     image: image4,
   },
   {
-    title: "Intuitive user interface",
+    title: "Bo'sh ishlar",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Siz uydan chiqmagan holda ish qidirishingiz mumkin hamda birinchi ishingizni topishingiz mumkin.",
     image: image3,
   },
   {
-    title: "AI-Powered insights",
+    title: "Xizmatlarni bilish",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Siz istalgan xizmat haqida ma'lumot olishingiz mumkin.",
     image: image,
   },
 ];
 
 const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  "Pricing",
+  "Taqqoslash",
+  "Tanlash",
+  "Baholash",
+  "Bo'sh o'rinlar",
   "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
-  "Minimalist",
+  "Moslashuvchan",
+  "Masofaviy",
 ];
 
 export const Features = () => {
@@ -56,9 +54,9 @@ export const Features = () => {
       className="container py-24 sm:py-32 space-y-8"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
+        Foydali{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
+          Xususiyatlar
         </span>
       </h2>
 
